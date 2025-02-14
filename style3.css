@@ -1,0 +1,98 @@
+body{
+    background-image: url(images/back_ground.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+  }
+  a {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 50px 80px;
+    background-color: #e34747;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+    transition: transform 0.5s ease; /* Добавляем плавность при изменении положения кнопки */
+
+    opacity: 0; /* Начальное значение прозрачности 0, чтобы кнопка была скрытой */
+    animation: fadeIn 2s ease forwards; /* Анимация для появления кнопки */
+  }
+
+  button:hover {
+    background-color: #e3abab;
+  }
+  .button_YES{
+    border-radius: 15%;
+    border: 2px solid #dc7c7c;
+    top: 50%;
+    left: 50%;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
+  }
+.sign-wrap-3 {
+    background: #000000;
+    text-align: center;
+    padding: 60px 20px;
+}
+.sign-wrap-3 .sign_word {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    animation: neon-3 5s steps(1, start) infinite reverse;
+}
+@keyframes neon-3 {
+    0%{
+        color: #600b0b;
+        text-shadow: 0 0 7px #600b0b, 0 0 8px #600b0b;
+    }
+    80%{
+        color: #f55353;
+        text-shadow: 0 0 6px #f55353,0 0 10px #f55353,0 0 50px #fc7979;
+    }
+    81%{
+        color: #fee1e1;
+        text-shadow: 0 0 6px #f55353,0 0 10px #f55353,0 0 50px #fc7979;
+    }
+    82%{color: #600b0b;
+        text-shadow: 0 0 7px #600b0b, 0 0 8px #600b0b;
+    }
+    83%{
+        color: #fee1e1;
+        text-shadow: 0 0 6px #f55353,0 0 10px #f55353,0 0 50px #f55353;
+    }
+    84%{
+        color: #600b0b;
+        text-shadow: 0 0 7px #600b0b, 0 0 8px #600b0b;
+    }
+    85%{
+        color: #fee1e1;
+        text-shadow: 0 0 6px #f55353,0 0 10px #f55353,0 0 50px #fc7979;
+    }
+    100%{
+        color: #600b0b;
+        text-shadow: 0 0 7px #600b0b,0 0 8px #600b0b;
+    }
+}

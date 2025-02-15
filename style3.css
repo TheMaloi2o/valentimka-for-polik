@@ -59,10 +59,19 @@ body{
     font-weight: bold;
     line-height: 50px;
     color: #FFF;
-    font-family: 'Neoneon', sans-serif;
+    font-family: 'MyCustomFont', sans-serif;
     text-transform: uppercase;
     animation: neon-3 5s steps(1, start) infinite reverse;
 }
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('images/Neoneon1.otf') format('opentype');
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+}
+
 @keyframes neon-3 {
     0%{
         color: #600b0b;

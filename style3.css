@@ -50,7 +50,7 @@ body{
     }
   }
 .sign-wrap-3 {
-    background: #000000;
+    background: none;
     text-align: center;
     padding: 60px 20px;
 }
@@ -59,7 +59,7 @@ body{
     font-weight: bold;
     line-height: 50px;
     color: #FFF;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Neoneon', sans-serif;
     text-transform: uppercase;
     animation: neon-3 5s steps(1, start) infinite reverse;
 }
